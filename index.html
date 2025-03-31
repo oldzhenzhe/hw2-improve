@@ -25,6 +25,34 @@
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
+   <!-- 內嵌關鍵 CSS -->
+   <style>
+      body {
+         color: #1f1f1f;
+         font-size: 14px;
+         font-family: 'Open Sans', sans-serif;
+         line-height: 1.80857;
+         font-weight: normal;
+      }
+      .header {
+         width: 100%;
+         background: transparent;
+         padding: 20px 30px;
+         position: absolute;
+         z-index: 999;
+      }
+      .loader_bg {
+         position: fixed;
+         z-index: 9999999;
+         background: #fff;
+         width: 100%;
+         height: 100%;
+      }
+      .loader img {
+         width: 280px;
+      }
+      /* ...其他關鍵樣式... */
+   </style>
 
    <!--[if lt IE 9]>
    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -366,5 +394,13 @@
 <script src="js/jquery.mCustomScrollbar.concat.min.js?v=1.0"></script>
 <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js?v=1.0"></script>
 <script src="js/custom.js?v=1.0"></script>
+
+<!-- 內嵌關鍵 JavaScript -->
+<script>
+   document.addEventListener('DOMContentLoaded', function () {
+      console.log('關鍵 JavaScript 已載入');
+      // ...其他關鍵的內嵌 JavaScript...
+   });
+</script>
 </body>
 </html>
